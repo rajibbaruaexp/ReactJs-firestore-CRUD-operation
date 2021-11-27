@@ -1,0 +1,18 @@
+.add-sub-form form {
+  display: flex;
+  border: 1px solid lightblue;
+  height: 45px;
+  margin-bottom: 50px;
+}
+
+.add-sub-form form input {
+  font-size: 18px;
+  text-align: center;
+  outline: none;
+}
+
+.add-sub-form form button {
+  width: 50px;
+  background: sienna;
+  cursor: pointer;
+}

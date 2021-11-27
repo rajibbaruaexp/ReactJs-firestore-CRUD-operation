@@ -3,10 +3,16 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 50px;
   pointer-events: none;
 }
+header.App-header {
+  padding-top: 100px;
+}
 
+header.App-header p {
+  font-size: 15px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,8 +20,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +39,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #000000;
+}
+table button {
+  width: 100% !important;
+  padding: 8px 0;
+  cursor: pointer;
 }
